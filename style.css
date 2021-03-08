@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body{
+	
+	padding: 0;
+	margin: 0;
+	
+}
+img{
+	
+	position: absolute;
+		position:fixed;
+	
+}
+.Spiral{
+	left: 285px;
+	top:79px;
+	
+}
+.rollover{
+	
+	left:285px;
+	top: 83px;
+}
+.Screen{
+	
+	left: 283px;
+	top:  77px;
+	
+}
+
+	
+audio{ 
+position: absolute;
+	z-index: 100000000;
+	left: 320px;
+	top: 20px;
+	
+	
+}
+
+.Nan{
+	left: 750px;
+	top: 80px;
+}
+.Black{
+	left:745px;
+	top:70px;
+	transition: top 3s;
+}
+.Black:hover{
+	top:10px;
+}
+.Baby{
+	left:750px;
+	top:300px;
+}
+
+.Back{
+	left:740px;
+	top:280px;
+	transition:2s;
+}
+.Back:hover{
+	left:2px;
+	
+}
+.Broken{
+	left:519px;
+	top:392px;
+	
+}
+
+.Disk{
+	left: 522px;
+	top: 387px;
+	transition: top 2s;
+}
+.Disk:hover {
+	top:360px;
+	background-color: aqua;
+}
+
+.Mouse{
+	left: 720px;
+	top: 498px;
+}
+.Loading{
+	background-color: coral;
+	position: relative;
+	animation-name: loading;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-fill-mode: backwards;
+	animation-play-state: running;
+}
+	
+@keyframes loading{
+	0%{
+	background-color: coral;
+		left:500px;
+		top:0px;
+	}
+	25%{
+	background-color: chartreuse;
+		left:250px;
+		top:30px;
+		
+	}
+	50%{
+background-color: darkorchid;
+		left:700px;
+		top:500px;
+	}
+	75%{
+	background-color: deeppink;
+		left:580px;
+		top:600px;
+	}
+	100%{
+	background-color: gold;
+		left:345px;
+		top:82px;
+		border-radius: 50px;
+	}
+}
+
+
+.Power{
+	left: 569px;
+	top: 332px;
+	transition-duration: .5s;
+	transition-property: all;
+}
+.Power:hover{
+background-color: blueviolet;
+	background-blend-mode: difference;
+	transform: rotate(360deg);
+	
+	
+}
+
+.Space{
+	left: 305px;
+	top: 566px;
+}
+.Momo{
+	Left:8px;
+	top: 15px;
+	
+}
+.Dark{
+	left:0px;
+	top: 0px;
+	transition-timing-function: ease-in-out;
+	
+}
+
+
+
+
